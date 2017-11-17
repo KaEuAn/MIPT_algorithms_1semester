@@ -1,0 +1,18 @@
+\documentclass[12pt]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage[utf8x]{inputenc} 
+\usepackage{amsfonts}
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage[russian]{babel}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\title{Рекурренты-2}  
+\date{04/10/2016}  
+\author{Kailiak Eugene}
+
+\begin{document}
+\maketitle
+$ T(n) = 2T(n/2) + \log_2{n}$ Пусть $m = \log_2{n} \Rightarrow T(2^m) = 3T (2^{m/2}) + m $. Обозначим $T(2^m)$ как $S(m)$. Получается $ S(m) = 3S(m/2) + m$ \\
+Воспользуемся мастер-теоремой. $f(m) = m = O(n^{log_2{3} - 0.01}) = O(n^{1.57}) \Rightarrow S(m) = \Theta (m^{log_2{3}})  \Rightarrow T(n) = \Theta (log_2{n}^{log_2{3}}) = \Theta (lg{n^{log_2{3}}})$\\
+
+
+\end{document}

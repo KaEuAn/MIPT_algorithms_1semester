@@ -1,0 +1,21 @@
+*.exe
+
+*make
+*cbp
+*debug
+*idea
+CMake*
+*.log
+*.aux
+*.gz
+*.o
+1\ week/C\ experiment/*.txt
+*tmp
+*TMP
+*vcxproj*
+*Release
+*idp
+*lib
+*sln
+*db
+*suo
