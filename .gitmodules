@@ -1,3 +1,15 @@
 [submodule "BigInteger"]
    	path = 2 week/BigInteger
 	url = https://github.com/KaEuAn/BigInteger.git
+[submodule "Geometry"]
+   	path = 4 week/Geometry
+	url = https://github.com/KaEuAn/Geometry.git
+[submodule "BigInteger"]
+   	path = 4 week/Quick_multiplication
+	url = https://github.com/KaEuAn/QuickMultiplication.git
+[submodule "Deque"]
+   	path = November/Deque
+	url = https://github.com/KaEuAn/Deque.git
+[submodule "Deque-Visual"]
+   	path = November/Deque-Visual/Deque/Deque
+	url = https://github.com/KaEuAn/Deque-Visual.git
